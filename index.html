@@ -21,8 +21,14 @@
   </head>
   <body>
     <div class="container mx-auto mt-20 bg-white">
-      <header id="header" class="bg-pink-400 p-3 font-bold">
-        Enviar Nuevo Mail
+      <header class = 'header'>
+      <h1 class="ml11">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters color">Enviar nuevo email</span>
+        </span>
+
+      </h1>
       </header>
 
       <form id="enviar-mail" class="py-10 px-5 max-w-lg mx-auto">
@@ -74,7 +80,7 @@
           <button
             id="resetBtn"
             class="w-full bg-purple-400 px-2 py-5 text-white items-center uppercase font-bold items-center flex justify-center"
-            type="submit"
+            type="button"
           >
             Resetear Form
             <i class="material-icons right ml-3">delete</i>
@@ -84,5 +90,7 @@
     </div>
 
     <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src= 'js/header.js'></script>
   </body>
 </html>
